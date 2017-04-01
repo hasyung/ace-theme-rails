@@ -1,0 +1,10 @@
+ul.messenger {
+  //messenger-theme-block
+  &.messenger-theme-block {
+    &.messenger-fixed {
+      .messenger-message {
+        padding: 12px;
+      }
+    }
+  }
+}

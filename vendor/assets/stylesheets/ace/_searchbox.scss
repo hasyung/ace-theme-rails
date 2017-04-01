@@ -1,0 +1,96 @@
+/* searchbox */
+#nav-search {
+  position: absolute;
+  top: 5px;
+  right: 22px;
+  line-height: 24px;
+  .form-search {
+    margin-top: 1px; 
+  }
+}
+#nav-search-input {
+  border-color: $search-border;
+  border-width: 1px;
+  width: $search-width;
+  height: 18px !important;
+  border-radius: $search-border-radius !important;
+  font-size: 13px;
+  color: $search-color !important;
+  z-index: 11;
+  @include transition(all ease .15s);
+  & + .dropdown-menu {
+    min-width: 0;
+    left: 0; 
+    right: 0;
+  }
+  &:focus {
+    color: $search-color-focus;
+	  box-shadow: none;
+	  @include opacity(100);
+  }
+}
+#nav-search-btn {
+  border-radius: 0;
+}
+#nav-search-icon {
+  color: $search-border;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* nav-search inside sidebar */
+#sidebar > #nav-search  {
+  position: static;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #DDD;
+  text-align: center;
+  height: 35px;
+  padding-top: 5px;
+  #nav-search-input {
+    width: $sb-search-width !important;
+    border-radius: 0 !important;
+    max-width: $sb-search-width !important;
+    opacity: 1 !important;
+    & + .dropdown-menu { 
+      text-align: left; 
+    }
+  }
+	#nav-search-icon {
+		@include nav-search-icon-active();
+	}
+  &.menu-min {
+    #nav-search {
+      .form-search {
+  	    position: absolute; 
+        left: 5px;
+  	    z-index: 14;
+      }
+      #nav-search-input {
+      	width: 0 !important;
+      	max-width: 0 !important;
+      	@include opacity(0, !important);
+      	&:hover, &:focus, &:active {
+        	width: $sb-search-width !important;
+        	max-width: $sb-search-width !important;
+        	@include opacity(100, !important);
+          ~ #nav-search-icon {
+          	@include nav-search-icon-active();
+          }
+      	}
+      }
+  		&:hover #nav-search-input {
+      	width: $sb-search-width !important;
+      	max-width: $sb-search-width !important;
+      	@include opacity(100, !important);
+  			~ #nav-search-icon {
+  				@include nav-search-icon-active();
+  			}
+  		}
+  		#nav-search-icon {
+  			border: 1px solid;
+  			border-radius: 32px;
+  			background-color: #FFF;
+  			padding: 0 5px;
+  		}
+	  }
+  }
+}

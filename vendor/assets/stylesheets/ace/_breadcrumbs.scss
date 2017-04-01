@@ -1,0 +1,64 @@
+/* breadcrumbs and searchbox */
+#breadcrumbs {
+  position: relative;
+  z-index: 13;
+  border-bottom: 1px solid $breadcrumb-border;
+  background-color: $breadcrumb-bg;
+  min-height: $breadcrumb-height;
+  line-height: $breadcrumb-height;
+  padding: 0 12px 0 0;
+  display: block;
+  &.fixed {
+    position: fixed;
+    left: $sidebar-width + 1;
+    right: 0;
+  }
+  &.margin-top {
+    margin-top: 20px;
+    border: 1px solid $breadcrumb-border;
+  }
+}
+
+
+.breadcrumb {
+  background-color: transparent;
+  display: inline-block;
+  line-height: 24px;
+  margin: 0 22px 0 12px; 
+  padding: 0;
+  font-size: 13px;
+  color: #333;
+  border-radius: 0;
+  > li {
+    padding: 0 5px;
+    &, &.active {
+	    color: $breadcrumb-text-color;
+	  }
+  	> .divider {
+      padding: 0 7px 0 14px;
+  	}
+  	> a {
+  	  display: inline-block;
+  	  color: $breadcrumb-link-color;
+    }
+    &.home {
+      margin-right: 10px;
+    }
+  }
+  .icon-home {
+    margin-left: 4px; 
+    margin-right: 2px;
+    font-size: 20px;
+    position: relative; 
+    top: 2px;
+  }
+  .icon-angle-right, .icon-chevron-right {
+    height: 22px;
+	  padding: 0;
+    margin: 0;
+    position: relative; 
+    top: 1px;
+    font-size: 14px;
+    color: $breadcrumb-arrow-color;
+  }
+}

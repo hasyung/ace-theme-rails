@@ -1,0 +1,22 @@
+.loading-container {
+  position: relative;
+  .loading-wrap:before, .loading-wrap:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 50px;
+    min-width: 50px;
+  }
+  .loading-wrap:before {
+    background-color: white;
+    opacity: 0.5;
+  }
+  .loading-wrap:after {
+    background-image: image-url('loading.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

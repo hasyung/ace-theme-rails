@@ -1,0 +1,220 @@
+// utility class
+.lighter { 
+  font-weight: lighter;
+}
+.bolder {
+  font-weight: bolder; 
+}
+.inline { 
+  display: inline-block !important; 
+}
+.block { 
+  display:block !important;
+}
+.hidden { 
+  display: none;
+}
+.center { 
+  text-align: center; 
+}
+.middle { 
+  vertical-align: middle; 
+}
+.position-relative { 
+  position: relative; 
+}
+.position-absolute { 
+  position: absolute; 
+}
+.no-margin { 
+  margin: 0; 
+}
+
+// colors
+.dark { 
+  color: $ace-dark !important; 
+}
+.white { 
+  color: $ace-white !important; 
+}
+.red { 
+  color: $ace-red !important; 
+}
+.light-red { 
+  color: $ace-light-red !important; 
+}
+.blue { 
+  color: $ace-blue !important; 
+}
+.light-blue { 
+  color: $ace-light-blue !important; 
+}
+.green { 
+  color: $ace-green !important; 
+}
+.light-green { 
+  color: $ace-light-green !important;
+}
+.orange { 
+  color: $ace-orange !important; 
+}
+.purple { 
+  color:$ace-purple !important; 
+}
+.pink { 
+  color: $ace-pink !important; 
+}
+.pink2 { 
+  color: $ace-pink2  !important; 
+}
+.brown { 
+  color: $ace-brown !important; 
+}
+.grey { 
+  color: $ace-grey !important; 
+}
+.light-grey { 
+  color: $ace-light-grey !important;
+}
+
+// font-size
+.bigger-110 {
+  font-size: 110%;
+}
+.bigger-120 {
+  font-size: 120%;
+}
+.bigger-125 {
+  font-size: 125%;
+}
+.bigger-150 { 
+  font-size: 150%; 
+}
+.bigger-200 { 
+  font-size: 200%; 
+}
+.smaller-90 {
+  font-size: 90%;
+}
+.smaller-80 {
+  font-size: 80%;
+}
+.smaller-75 { 
+  font-size: 75%;
+}
+.smaller-50 { 
+  font-size: 50%; 
+}
+
+
+/* <hr /> like spacing by using div, e.g <div class="hr hr-32"></div> */
+.hr {
+  display: block;
+  height: 0px; 
+  overflow: hidden; 
+  font-size: 0;
+  border-top: 1px solid #E3E3E3;
+  margin: 12px 0;
+}
+.hr-double {
+  height: 1px;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+.hr.dotted { 
+  border-top-style: dotted;
+}
+.hr-double.dotted { 
+  border-bottom-style: dotted;
+}
+
+@include hr-x(32px);
+@include hr-x(22px);
+
+
+/* some spacing classes, use like <div class="space-24"></div> */
+.space, .vspace { 
+  @include space(); 
+  margin: 12px 0; 
+}
+.vspace { 
+  display: none; 
+}
+
+@include space-x(32px);
+@include space-x(10px);
+
+
+/* headers */
+.header {
+  line-height: 28px;
+  margin-bottom: 16px;
+  margin-top: 18px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #CCC;
+ 
+  &.blue {
+    border-bottom-color: desaturate(lighten($ace-blue, 30%), 5%);
+  }
+  &.green {
+    border-bottom-color: desaturate(lighten($ace-green, 35%), 5%);
+  }
+  &.purple {
+    border-bottom-color: desaturate(lighten($ace-purple, 28%), 5%);
+  }
+  &.orange {
+    border-bottom-color: desaturate(lighten($ace-orange, 25%), 5%);
+  }
+  &.red {
+    border-bottom-color: desaturate(lighten($ace-red, 30%), 5%);
+  }
+  &.grey {
+    border-bottom-color: desaturate(lighten($ace-grey, 30%), 5%);
+  }
+  &.pink {
+    border-bottom-color: desaturate(lighten($ace-pink, 20%), 5%);
+  }
+  &.pink2 {
+    border-bottom-color: desaturate(lighten($ace-pink2, 20%), 5%);
+  }
+  &.light-blue {
+    border-bottom-color: desaturate(lighten($ace-light-blue, 15%), 5%);
+  }
+  &.light-red {
+    border-bottom-color: desaturate(lighten($ace-light-red, 15%), 5%);
+  }
+  &.light-green {
+    border-bottom-color: desaturate(lighten($ace-light-green, 15%), 5%);
+  }
+  &.brown {
+    border-bottom-color: desaturate(lighten($ace-brown, 32%), 5%);
+  }
+
+  > [class*="icon-"] {
+    margin-right: 2px;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.no-radius { 
+  @include border-radius(0, !important); 
+}
+
+@include padding(padding, 40, 5);
+
+@include margin(margin, 40, 5);
+
+@include margin-zero();
+
+
+
+

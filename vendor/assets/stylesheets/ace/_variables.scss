@@ -1,0 +1,394 @@
+//basic variables
+$baseFontSize:                                          13px !default;
+$sansFontFamily:                                        "Open Sans" !default;
+
+
+//general
+$body-bg:                                               #E4E6E9 !default;
+$text-color:                                            #393939 !default;
+$content-bg:                                            #FFF !default;
+$content-header-border:                                 #E2E2E2 !default;
+$content-header-color:                                  #2679B5 !default;
+$content-header-size:                                   24px !default;
+$content-header-small-color:                            #8089A0 !default;
+$content-header-small-size:                             14px !default;
+
+//basic
+$blockquote-border:                                     #E5EAF1 !default;
+$modal-footer-border:                                   #E4E9EE !default;
+$modal-footer-bg:                                       #EFF3F8 !default;
+
+$pagination-color:                                      #2283C5 !default;
+$pagination-border:                                     #E0E8EB !default;
+$pagination-bg:                                         #FAFAFA !default;
+$pagination-bg-hover:                                   #EAEFF2 !default;
+$pagination-bg-disabled:                                #F9F9F9 !default;
+$pagination-border-disabled:                            #D9D9D9 !default;
+$pagination-color-active:                               #FFFFFF !default;
+$pagination-bg-active:                                  #6FAED9 !default;
+$pagination-border-active:                              #6FAED9 !default;
+
+$h1-size:                                               32px !default;
+$h2-size:                                               26px !default;
+$h3-size:                                               22px !default;
+$h4-size:                                               18px !default;
+$h5-size:                                               15px !default;
+$h6-size:                                               13px !default;
+
+
+//ace top nav/bar
+$navbar-mh:                                             45px !default;
+$navbar-bg:                                             #438EB9 !default;
+$navbar-text-color:                                     #FFF !default;
+$brand-size:                                            20px !default;
+
+$ace-nav-default:                                       #2E6589 !default;
+$ace-nav-grey:                                          #555 !default;
+$ace-nav-purple:                                        #892E65 !default;
+$ace-nav-green:                                         #2E8965 !default;
+$ace-nav-red:                                           #B74635 !default;
+$ace-nav-light-green:                                   #9ABC32 !default;
+$ace-nav-light-purple:                                  #CB6FD7 !default;
+$ace-nav-light-orange:                                  #F79263 !default;
+$ace-nav-light-blue:                                    #62A8D1 !default;
+$ace-nav-light-blue2:                                   #42A8E1 !default;
+$ace-nav-light-pink:                                    #F4DAE5 !default;
+$ace-nav-dark:                                          #404040 !default;
+$ace-nav-white-opaque:                                  rgba(255, 255, 255, 0.8) !default;
+$ace-nav-dark-opaque:                                   rgba(0, 0, 0, 0.2) !default;
+//sidebar
+$sidebar-width:                                         189px !default;
+$sidebar-min-width:                                     42px !default;
+
+//some text colors
+$ace-dark:                                              #333 !default;
+$ace-white:                                             #FFF !default;
+$ace-red:                                               #DD5A43!default;
+$ace-light-red:                                         #FF7777 !default;
+$ace-blue:                                              #478FCA !default;
+$ace-light-blue:                                        #93CBF9 !default;
+$ace-green:                                             #69AA46 !default;
+$ace-light-green:                                       #B6E07F !default;
+$ace-orange:                                            #FF892A !default;
+$ace-purple:                                            #A069C3 !default;
+$ace-pink:                                              #C6699F !default;
+$ace-pink2:                                             #D6487E !default;
+$ace-brown:                                             brown !default;
+$ace-grey:                                              #777 !default;
+$ace-light-grey:                                        #BBB !default;
+
+//breadcrumbs
+$breadcrumb-height:                                     40px !default;
+$breadcrumb-bg:                                         #F5F5F5 !default;
+$breadcrumb-border:                                     #E5E5E5 !default;
+$breadcrumb-text-color:                                 #555 !default;
+$breadcrumb-link-color:                                 #4C8FBD !default;
+$breadcrumb-arrow-color:                                #B2B6BF !default;
+
+//some searchbox variables
+$search-border:                                         #6FB3E0 !default;
+$search-color:                                          #666 !default;
+$search-color-focus:                                    #656A72 !default;
+$search-width:                                          120px !default;
+$sb-search-width:                                       130px !default;
+$search-border-radius:                                  4px !default;
+
+//some sidebar variables
+$sidebar-bg:                                            #F2F2F2 !default;
+$sidebar-border-right:                                  #CCC !default;
+
+$menu-active-color:                                     #8B9AA3 !default;
+$menu-bg:                                               #F9F9F9 !default;
+$menu-color:                                            #585858 !default;
+$menu-focus-color:                                      #8B9AA3 !default;
+$menu-hover-indicator:                                  #3382AF !default;
+$menu-subarrow-color:                                   #666 !default;
+$menu-active-color:                                     #0B6CBC !default;
+$menu-open-bg:                                          #FAFAFA !default;
+$menu-active-bg:                                        #FFF !default;
+
+$submenu-border:                                        #E5E5E5 !default;
+$submenu-bg:                                            #FFF !default;
+$submenu-item-color:                                    #616161 !default;
+$submenu-item-border:                                   #E4E4E4 !default;
+$submenu-item-hover:                                    #4B88B7 !default;
+$submenu-item-active-icon:                              #C86139 !default;
+$submenu-dashed-border:                                 #B1C9E0 !default;
+$menumin-btn-bg:                                        #F3F3F3 !default;
+$menumin-btn-border:                                    #E0E0E0 !default;
+$menumin-icon-color:                                    #AAA !default;
+$menumin-icon-border:                                   #BBB !default;
+$menumin-icon-bg:                                       #FFF !default;
+$menumin-bg:                                            #F5F5F5 !default;
+$menumin-border:                                        #CCC !default;
+$menumin-text-border:                                   #DDD !default;
+$menumin-shadow:                                        2px 1px 2px 0 rgba(0,0,0,0.2) !default;
+
+$shortcuts-bg:                                          #FAFAFA !default;
+$shortcuts-border:                                      #DDD !default;
+
+
+//button colors
+$btn-default:                                           #ABBAC3 !default;
+$btn-default-hover:                                     #8B9AA3 !default;
+
+$btn-primary:                                           #2283C5 !default;
+$btn-primary-hover:                                     #045E9F !default;
+
+$btn-info:                                              #6FB3E0 !default;
+$btn-info-hover:                                        #4F99C6 !default;
+
+$btn-success:                                           #87B87F !default;
+$btn-success-hover:                                     #629B58 !default;
+
+$btn-warning:                                           #FFB752 !default;
+$btn-warning-hover:                                     #E59729 !default;
+
+$btn-danger:                                            #D15B47 !default;
+$btn-danger-hover:                                      #B74635 !default;
+
+$btn-inverse:                                           #555555 !default;
+$btn-inverse-hover:                                     #303030 !default;
+
+$btn-pink:                                              #D6487E !default;
+$btn-pink-hover:                                        #B73766 !default;
+
+$btn-purple:                                            #9585BF !default;
+$btn-purple-hover:                                      #7461AA !default;
+
+$btn-yellow:                                            #FEE188 !default;
+$btn-yellow-hover:                                      #F7D05B !default;
+$btn-yellow-color:                                      #996633 !default;
+
+$btn-light:                                             #E7E7E7 !default;
+$btn-light-hover:                                       #D9D9D9 !default;
+$btn-light-color:                                       #888 !default;
+
+$btn-grey:                                              #A0A0A0 !default;
+$btn-grey-hover:                                        #888888 !default;
+
+//active state:
+$btn-active-color:                                      #EFE5B5 !default;
+$btn-yellow-active-border:                              #C96338 !default;
+
+$btn-link-color:                                        #0088CC !default;
+
+//application button colors
+$btn-app-default-1:                                     #BCC9D5 !default;
+$btn-app-default-2:                                     #ABBAC3 !default;
+$btn-app-primary-1:                                     #3B98D6 !default;
+$btn-app-primary-2:                                     #197EC1 !default;
+$btn-app-info-1:                                        #75B5E6 !default;
+$btn-app-info-2:                                        #5BA4D5 !default;
+$btn-app-success-1:                                     #8EBF60 !default;
+$btn-app-success-2:                                     #7DAA50 !default;
+$btn-app-danger-1:                                      #D55B52 !default;
+$btn-app-danger-2:                                      #D12723 !default;
+$btn-app-warning-1:                                     #FFBF66 !default;
+$btn-app-warning-2:                                     #FFA830 !default;
+$btn-app-purple-1:                                      #9B8AC5 !default;
+$btn-app-purple-2:                                      #8A7CB4 !default;
+$btn-app-pink-1:                                        #DB5E8C !default;
+$btn-app-pink-2:                                        #CE3970 !default;
+$btn-app-inverse-1:                                     #494949 !default;
+$btn-app-inverse-2:                                     #303030 !default;
+$btn-app-grey-1:                                        #848484 !default;
+$btn-app-grey-2:                                        #707070 !default;
+$btn-app-light-1:                                       #F4F4F4 !default;
+$btn-app-light-2:                                       #E6E6E6 !default;
+$btn-app-yellow-1:                                      #FFE8A5 !default;
+$btn-app-yellow-2:                                      #FCD76A !default;
+$btn-app-active:                                        #FFF !default;
+$btn-app-yellow-color:                                  #963 !default;
+$btn-app-yellow-border:                                 #FEE188 !default;
+$btn-app-light-color:                                   #5A5A5A !default;
+$btn-app-light-active:                                  #515151 !default;
+
+//label & badge colors
+$label-default:                                         #ABBAC3 !default;
+$label-primary:                                         #2283C5 !default;
+$label-info:                                            #3A87AD !default;
+$label-success:                                         #82AF6F !default;
+$label-important:                                       #D15B47 !default;
+$label-warning:                                         #F89406 !default;
+$label-inverse:                                         #333333 !default;
+$label-pink:                                            #D6487E !default;
+$label-purple:                                          #9585BF !default;
+$label-yellow:                                          #FEE188 !default;
+$label-light:                                           #E7E7E7 !default;
+$label-grey:                                            $btn-grey !default;
+
+//menu colors
+$dropdown-menu:                                         #4F99C6 !default;
+$dropdown-default:                                      $btn-default !default;
+$dropdown-primary:                                      $btn-primary !default;
+$dropdown-info:                                         $btn-info !default;
+$dropdown-success:                                      $btn-success !default;
+$dropdown-warning:                                      #FFA24D !default;
+$dropdown-danger:                                       $btn-danger !default;
+$dropdown-inverse:                                      $btn-inverse !default;
+$dropdown-pink:                                         $btn-pink !default;
+$dropdown-purple:                                       $btn-purple !default;
+$dropdown-grey:                                         $btn-grey !default;
+$dropdown-light:                                        $btn-light !default;
+$dropdown-lighter:                                      #F3F3F3 !default;
+$dropdown-yellow:                                       $btn-yellow !default;
+
+//form
+$input-readonly-color:                                  #939192 !default;
+$input-readonly-bg:                                     #F5F5F5 !default;
+$input-readonly-focus-border:                           #AAA !default;
+$input-readonly-focus-bg:                               #F9F9F9 !default;
+$input-readonly-focus-shadow:                           0px 0px 0px 2px rgba(150, 150, 150, 0.3) !default;
+$input-disabled-color:                                  #848484 !default;
+$input-disabled-bg:                                     #EEE !default;
+$option-hover-bg:                                       #E5E9EE !default;
+$help-button-bg:                                        #65BCDA !default;
+$input-border:                                          #D5D5D5 !default;
+$input-bg:                                              #FFF !default;
+$input-color:                                           #AAA !default;
+
+$input-focus-border:                                    #F59942 !default;
+$input-focus-bg:                                        #FFF !default;
+$input-focus-color:                                     #838182 !default;
+$input-focus-shadow:                                    0px 0px 0px 2px rgba(245, 153, 66, 0.3) !default;
+
+//form error states
+$success-state-border:                                  #92BF65 !default;
+$success-state-color:                                   #8BAD4C !default;
+$success-state-focus-border:                            #81A85A !default;
+$success-state-focus-color:                             #786 !default;
+$success-state-focus-shadow:                            0px 0px 0px 2px rgba(130, 188, 58, 0.3) !default;
+$success-state-text-color:                              #7BA065 !default;
+
+$error-state-border:                                    #F09784 !default;
+$error-state-color:                                     #D68273 !default;
+$error-state-focus-border:                              #DB8978 !default;
+$error-state-focus-color:                               #866 !default;
+$error-state-focus-shadow:                              0px 0px 0px 2px rgba(219, 137, 120, 0.3) !default;
+$error-state-text-color:                                #D16E6C !default;
+
+$warning-state-border:                                  #E0C43A !default;
+$warning-state-color:                                   #D3BD50 !default;
+$warning-state-focus-border:                            #D8BC41 !default;
+$warning-state-focus-color:                             #875 !default;
+$warning-state-focus-shadow:                            0px 0px 0px 2px rgba(216, 188, 65, 0.3) !default;
+$warning-state-text-color:                              #D19D59 !default;
+
+$info-state-border:                                     #64A6BC !default;
+$info-state-color:                                      #4B89AA !default;
+$info-state-focus-border:                               #5A81A8 !default;
+$info-state-focus-color:                                #678 !default;
+$info-state-focus-shadow:                               0px 0px 0px 2px rgba(58, 120, 188, 0.3) !default;
+$info-state-text-color:                                 #657BA0 !default;
+
+$disabled-state-color:                                  #848484 !default;
+$disabled-state-bg:                                     #EEE !default;
+
+//checkbox
+$checkbox-color:                                        #32A3CE !default;
+$checkbox-checked-border:                               #ADB8C0 !default;
+$checkbox-hover-border:                                 #FF893C !default;
+$checkbox2-bg:                                          #F9A021 !default;
+
+$switch-checked-bg:                                     #8AB2C9 !default;
+$switch-checked-border:                                 #468FCC !default;
+$switch4-bg:                                            #8B9AA3 !default;
+$switch4-color:                                         #5B6A73 !default;
+$switch4-checked-bg:                                    #468FCC !default;
+
+$switch6-checked-border:                                #B7D3E5 !default;
+$switch6-checked-bg:                                    #FF893C !default;
+
+$switch7-checked-bg:                                    #468FCC !default;
+$switch7-checked-border:                                #6FB3E0 !default;
+
+//form file input
+$file-input-bg:                                         #FFF !default;
+$file-input-border:                                     #E3E3E3 !default;
+$file-input-shadow:                                     0px 0px 0px 4px rgba(0,0,0,0.06) !default;
+
+$file-input-hover-border:                               #F59942 !default;
+$file-input-hover-shadow:                               0px 0px 0px 4px rgba(245, 153, 66, 0.3) !default;
+
+$file-input-btn-bg:                                     #6FB3E0 !default;
+$file-input-name-color:                                 #888 !default;
+$file-input-selected-name-color:                        #666 !default;
+
+$file-input-icon-bg:                                    #D1D1D1 !default;
+$file-input-selected-icon-bg:                           #EFAD62 !default;
+$file-input-selected-icon-picture-bg:                   #BD7A9D !default;
+$file-input-selected-icon-film-bg:                      #87B87F !default;
+$file-input-selected-icon-music-bg:                     #8B7AC9 !default;
+$file-input-selected-icon-archive-bg:                   #EFAD62 !default;
+
+$file-remove-bg:                                        #FB7142 !default;
+$file-multi-remove-color:                               #F4C0B1 !default;
+$file-multi-border:                                     #AAA !default;
+
+//widget colors
+$widget-blue:                                           #307ECC !default;
+$widget-blue2:                                          #5090C1 !default;
+$widget-blue3:                                          #6379AA !default;
+$widget-green:                                          #82AF6F !default;
+$widget-green2:                                         #2E8965 !default;
+$widget-green3:                                         #4EBC30 !default;
+$widget-red:                                            #E2755F !default;
+$widget-red2:                                           #E04141 !default;
+$widget-red3:                                           #D15B47 !default;
+$widget-purple:                                         #7E6EB0 !default;
+$widget-pink:                                           #CE6F9E !default;
+$widget-dark:                                           #404040 !default;
+$widget-grey:                                           #848484 !default;
+
+$widget-orange:                                         #FFC657 !default;
+$widget-orange-txt:                                     #855D10 !default;
+$widget-orange-border:                                  #E8B10D !default;
+$widget-header-color:                                   #669FC7 !default;
+
+
+//tooltip
+$tooltip-color:                                         #333 !default;
+$tooltip-error-color:                                   #C94D32 !default;
+$tooltip-success-color:                                 #629B58 !default;
+$tooltip-warning-color:                                 #ED9421 !default;
+$tooltip-info-color:                                    #4B89AA !default;
+
+//infobox colors
+$infobox-purple:                                        #6F3CC4 !default;
+$infobox-purple2:                                       #5F47B0 !default;
+$infobox-pink:                                          #CB6FD7 !default;
+$infobox-blue:                                          #6FB3E0 !default;
+$infobox-blue2:                                         #3983C2 !default;
+$infobox-blue3:                                         #1144EB !default;
+$infobox-red:                                           #D53F40 !default;
+$infobox-brown:                                         #C67A3E !default;
+$infobox-light-brown:                                   #CEBEA5 !default;
+$infobox-wood:                                          #7B3F25 !default;
+$infobox-orange:                                        #E8B110 !default;
+$infobox-orange2:                                       #F79263 !default;
+$infobox-green:                                         #9ABC32 !default;
+$infobox-green2:                                        #0490A6 !default;
+$infobox-grey:                                          #999999 !default;
+$infobox-black:                                         #393939 !default;
+
+
+//slider colors
+$slider-color:                                          #4AA4CE !default;
+$slider-green:                                          #8BBC67 !default;
+$slider-red:                                            #D36E6E !default;
+$slider-purple:                                         #AC68BA !default;
+$slider-orange:                                         #EFAD62 !default;
+$slider-dark:                                           #606060 !default;
+
+$ace-settings-box-border:                               #FFB34B !default;
+$datepicker-active-bg:                                  #2283C5 !default;
+$datepicker-disabled-bg:                                #8B9AA3 !default;
+
+
+//tabs & accordion
+$tab-border:                                            #C5D0DC !default;
+$tab-active-color:                                      #576373 !default;
+$tab-active-border:                                     #4C8FBD !default;
+$tab-hover-color:                                       #4C8FBD !default;
+

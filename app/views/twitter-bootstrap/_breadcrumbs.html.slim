@@ -1,0 +1,9 @@
+- if @breadcrumbs.present?
+  ul.breadcrumb
+    li.home:i.icon-home
+    - @breadcrumbs[0..-2].each do |crumb|
+      li
+        = link_to raw(crumb[:name]), crumb[:url], crumb[:options]
+        span.divider: i.icon-chevron-right
+    li.active
+     = raw @breadcrumbs.last[:name]
